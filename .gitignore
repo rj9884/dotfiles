@@ -1,0 +1,32 @@
+# Sensitive / machine-specific
+.vault/
+.ssh/
+.secrets/
+
+# Generated / dynamic color files (produced by matugen at runtime)
+config/hypr/colors.conf
+config/hypr/colors.lua
+config/waybar/colors.css
+config/kitty/colors.conf
+config/rofi/colors.rasi
+config/ghostty/config.ghostty
+config/dunst/dunstrc
+config/fastfetch/config.jsonc
+config/swayosd/style.css
+config/btop/themes/matugen.theme
+config/nvim/lua/matugen-colors.lua
+config/zed/themes/matugen.json
+config/helium-theme/manifest.json
+
+# Symlinks that point to the active theme (managed by theme-selector)
+config/hypr/theme.conf
+config/hypr/theme.lua
+config/waybar/config.jsonc
+config/waybar/style.css
+config/rofi/active-launcher.rasi
+config/rofi/active-scripts.rasi
+config/rofi/active-picker.rasi
+
+# Editor / IDE local state
+config/nvim/lazy-lock.json
+config/nvim/lazyvim.json
